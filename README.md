@@ -7,9 +7,9 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ## Results
 ### 1. Naive Random Oversampling
 <img width="909" alt="Naive Random Oversampling" src="https://user-images.githubusercontent.com/98666231/172072117-50306e90-82b7-4e7f-bb5d-5425296f50f7.png">
-Balanced Accuracy Score: 0.6742571941946299
-Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
-Recall Score
+- Balanced Accuracy Score: 0.6742571941946299
+- Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
+- Recall Score
   High_Risk:0.74
   Low_Risk:0.61
   
