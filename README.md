@@ -6,7 +6,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Results
 ### 1. Naive Random Oversampling
-<img width="909" alt="Naive Random Oversampling" src="https://user-images.githubusercontent.com/98666231/172072117-50306e90-82b7-4e7f-bb5d-5425296f50f7.png">
+<img width="697" alt="Naive Random Oversampling" src="https://user-images.githubusercontent.com/98666231/172074046-589d43d1-7f0d-46a3-9c30-a714bee059a7.png">
 Balanced Accuracy Score: 0.6742571941946299.
 Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
 Recall Score
@@ -14,7 +14,7 @@ Recall Score
   Low_Risk:0.61
   
 ### 2. SMOTE Oversampling
-<img width="807" alt="SMOTE Oversampling" src="https://user-images.githubusercontent.com/98666231/172072534-646a6450-41b1-4478-8d7e-b6aca3d4ee36.png">
+<img width="650" alt="SMOTE Oversampling" src="https://user-images.githubusercontent.com/98666231/172074050-7b0daed8-8717-4f3d-b135-276b56b218b8.png">
 Balanced Accuracy Score: 0.6623356588465208.
 Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
 Recall Score
@@ -22,7 +22,7 @@ Recall Score
   Low_Risk:0.69
  
 ### 3. Undersampling
-<img width="804" alt="Undersampling" src="https://user-images.githubusercontent.com/98666231/172072537-461e5a5d-8a05-4cfa-bd21-6d39cdcc1d33.png">
+<img width="647" alt="Undersampling" src="https://user-images.githubusercontent.com/98666231/172074055-049cab2f-294b-426b-b695-2369e9aa0e97.png">
 Balanced Accuracy Score: 0.5442166848817717.
 Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
 Recall Score
@@ -30,7 +30,7 @@ Recall Score
   Low_Risk:0.40
   
 ### 4. Combination (Under and Over) Sampling 
-<img width="804" alt="Combination (Over and Under) Sampling" src="https://user-images.githubusercontent.com/98666231/172072539-1c90f55e-8aff-4da9-b5e6-bfb14ce4bbb9.png">
+<img width="642" alt="Combination (Over and Under) Sampling" src="https://user-images.githubusercontent.com/98666231/172074074-9845c6f6-6460-40e0-a720-23cea22286fa.png">
 Balanced Accuracy Score: 0.5441784794709592.
 Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
 Recall Score
@@ -38,7 +38,7 @@ Recall Score
   Low_Risk:0.57
 
 ### 5. Balanced Random Forest Classifier 
-<img width="797" alt="Balanced Random Forest Classifier" src="https://user-images.githubusercontent.com/98666231/172072542-107340fc-0e4e-4e7d-a8ac-9441d092ba91.png">
+<img width="650" alt="Balanced Random Forest Classifier" src="https://user-images.githubusercontent.com/98666231/172074077-323f4f5a-9244-4f3e-8542-05990e3f99bd.png">
 Balanced Accuracy Score: 0.7885466545953005.
 Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
 Recall Score
@@ -46,9 +46,15 @@ Recall Score
   Low_Risk:0.87
 
 ### 6. Easy Ensemble AdaBoost Classifier
-<img width="805" alt="Easy Ensemble AdaBoost Classidier" src="https://user-images.githubusercontent.com/98666231/172072550-68a58777-6945-4dbc-939d-f2934d1b98f3.png">
+<img width="651" alt="Easy Ensemble AdaBoost Classifier" src="https://user-images.githubusercontent.com/98666231/172074082-95b4e20b-201e-4eb5-bb58-e2d2de7ef373.png">
 Balanced Accuracy Score: 0.9316600714093861.
 Precision Score: The precision for high_risk loans is low and the low_risk loans is high.
 Recall Score
   High_Risk:0.92
   Low_Risk:0.94
+
+## Summary
+All the models that were used showed a very poor precision for for calculating credit risk. The majority of the balanced accuracy score is 54-93%.
+From my observations the best model to use is the Easy Ensemble AdaBoost Classifier because overall it had the highest score for balance, precision, and recall.
+
+
